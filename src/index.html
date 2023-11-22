@@ -6,8 +6,8 @@
     <title>FoodApp</title>
     <link href="../public/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="text-indigo-800">
+  <body class="text-indigo-800 font-body">
+    <div>
       <!--content wrapper-->
       <div>
         <nav>
@@ -30,9 +30,9 @@
         </nav>
       </div>
 
-      <main class="px-16 py-6">
-        <div>
-          <a href="#">Login</a>
+      <main class="px-16 py-6 bg-gray-500">
+        <div class="text-primary flex md:justify-end">
+          <a href="#" class="mr-12">Login</a>
           <a href="#">Signup</a>
         </div>
         <header>
@@ -46,11 +46,17 @@
 
           <div class="mt-4">
             <!--Cards-->
-            <div>
-              <!-- <img src="../public/image/pasta.jpg" alt="pasta" />   -->
-              <div>
-                <span>5 Been sdf jka</span>
-                <span>recipe by sam</span>
+            <div class="bg-white rounded overflow-hidden shadow-md">
+              <img
+                class="w-full h-32 sm:h-48 object-cover"
+                src="../public/image/pasta.jpg"
+                alt="pasta"
+              />
+              <div class="m-2">
+                <span class="font-bold">5 Been sdf jka</span>
+                <span class="font-medium text-gray-300 block"
+                  >recipe by sam</span
+                >
               </div>
             </div>
           </div>
@@ -60,13 +66,11 @@
           <div class="mt-6">
             <!--cards -->
           </div>
-          <div>
-            <div>Load More</div>
+          <div class="flex justify-center">
+            <div class="bg-secondary-100 text-secondary-200 p-3">Load More</div>
           </div>
         </div>
       </main>
-
-      <div></div>
     </div>
   </body>
 </html>
