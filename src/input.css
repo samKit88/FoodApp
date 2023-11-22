@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+
+.badge {
+  @apply bg-secondary-100 text-xs uppercase rounded-full p-2 m-1 absolute top-0;
+}
+
+.btn {
+  @apply uppercase text-xs font-bold cursor-pointer rounded-full px-3 py-2;
+}
